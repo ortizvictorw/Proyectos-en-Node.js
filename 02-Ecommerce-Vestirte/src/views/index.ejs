@@ -1,0 +1,19 @@
+<!-- HEAD -->
+<%-include('./partials/head.ejs')%>
+<!-- HEADERS -->
+<%-include('./partials/header.ejs')%>
+<!-- BARRA DE NAVEGACION -->
+<%-include('./partials/nav.ejs')%>
+<!-- SECTION -->
+<%-include('./partials/carrusel.ejs')%>
+<%-include('./partials/parcial-info-varios.ejs')%>
+<!-- DESTACADOS Y VISITADOS -->
+<%-include('./partials/parcial-destacados.ejs')%>
+<!-- DESTACADOS Y VISITADOS -->
+<% if (pendorcho!=null) { %>
+    <%-include('./partials/parcial-visitados.ejs')%>
+<% } %>
+<!--  FOOTER  -->
+<%-include('./partials/footer.ejs')%>
+<!--  SCRIPT -->
+<%-include('./partials/script.ejs')%>
